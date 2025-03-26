@@ -1,0 +1,144 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo claro */
+    text-align: center;
+    margin-top: 70px; /* Ajusta el contenido para que no quede detrás del header fijo */
+}
+
+header {
+    background-color: #00c8ff; /* Fondo celeste */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrado horizontal del texto */
+    padding: 15px 0; /* Espaciado interno superior e inferior */
+    font-size: 1.2em; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    position: fixed; /* Fija el header en la parte superior */
+    top: 0; /* Alinea en la parte superior */
+    width: 100%; /* Ocupa todo el ancho */
+    z-index: 1000; /* Asegura que esté encima del resto del contenido */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+.header-content {
+    max-width: 1200px; /* Ancho máximo del contenido del header */
+    margin: 0 auto; /* Centrado horizontal */
+}
+
+h1 {
+    font-size: 2.5em; /* Ajusta el tamaño del texto */
+    font-weight: bold; /* Opcional: hace el texto más grueso */
+    text-align: center; /* Centrado */
+    line-height: 1.4; /* Ajusta la altura de las líneas para mejor legibilidad */
+}
+
+
+.vsl {
+    margin: 20px 0;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.button {
+    font-size: 1.2em;
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-masterclass {
+    background-color: #00c8ff; /* Celeste */
+    color: white;
+}
+
+.button-asesorias {
+    background-color: #ff4c4c; /* Rojo */
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .buttons .button {
+        width: 80%;
+        font-size: 1em;
+    }
+
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+    }
+}
+.quien-soy {
+    text-align: center; /* Centra los elementos de la sección */
+    margin: 30px auto; /* Espaciado alrededor de la sección */
+    max-width: 600px; /* Ancho máximo de la sección */
+}
+
+.quien-soy h2 {
+    font-size: 2em; /* Tamaño del título "¿Quién soy?" */
+    margin-bottom: 20px; /* Separación entre el título y el texto */
+    color: #333; /* Color del texto */
+}
+
+.quien-soy p {
+    font-size: 1.2em; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    color: #555; /* Color del texto */
+}
+
+.quien-soy img {
+    margin-bottom: 20px; /* Separación debajo de la imagen */
+    width: 100%;
+    max-width: 400px; /* Ajusta el ancho máximo para pantallas grandes */
+    height: auto; /* Mantiene proporciones correctas */
+}
+
+@media (max-width: 768px) {
+    .quien-soy img {
+        display: block;
+        margin: 0 auto 20px auto; /* Centra la imagen y ajusta el espacio inferior */
+    }
+
+    .quien-soy p {
+        font-size: 1em; /* Reduce el tamaño del texto para pantallas pequeñas */
+    }
+}

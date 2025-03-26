@@ -1,0 +1,111 @@
+/* Estilo General */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #00c8ff, #007bbd);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.7em;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenido */
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Sala Comunidad (Sección Izquierda) */
+.sala-comunidad {
+    flex: 1;
+    padding: 20px;
+    max-width: 600px;
+    margin: 10px;
+}
+
+.sala-comunidad h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sala-comunidad ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.sala-comunidad ul li {
+    margin-bottom: 10px;
+}
+
+/* Checkout (Sección Derecha) */
+.checkout {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.checkout button {
+    background-color: #00c8ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.checkout button:hover {
+    background-color: #007bbd;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .contenido {
+        flex-direction: column;
+    }
+
+    .sala-comunidad,
+    .checkout {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .checkout button {
+        width: 100%; /* El botón ocupa todo el ancho en móviles */
+    }
+}
