@@ -6,14 +6,14 @@ function slideAnterior(sliderId) {
     // Reemplaza con tus rutas de imágenes para cada slider
     const images = {
         slider1: [
-            "sources/imagen1.jpg",
-            "sources/imagen2.jpg",
-            "sources/imagen3.jpg"
+            "sources/WhatsApp Image 2025-03-24 at 7.36.57 PM.jpeg",
+            "sources/WhatsApp Image 2025-03-24 at 7.36.58 PM.jpeg",
+            "sources/WhatsApp Image 2025-03-24 at 7.36.58 PM (1).jpeg"
         ],
         slider2: [
-            "sources/imagen4.jpg",
-            "sources/imagen5.jpg",
-            "sources/imagen6.jpg"
+            "sources/efras1.png",
+            "sources/efras2.png",
+            "sources/efras2.png"
         ]
     };
 
@@ -30,14 +30,14 @@ function slideSiguiente(sliderId) {
     // Reemplaza con tus rutas de imágenes para cada slider
     const images = {
         slider1: [
-            "sources/imagen1.jpg",
-            "sources/imagen2.jpg",
-            "sources/imagen3.jpg"
+            "sources/WhatsApp Image 2025-03-24 at 7.36.57 PM.jpeg",
+            "sources/WhatsApp Image 2025-03-24 at 7.36.58 PM.jpeg",
+            "sources/WhatsApp Image 2025-03-24 at 7.36.58 PM (1).jpeg"
         ],
         slider2: [
-            "sources/imagen4.jpg",
-            "sources/imagen5.jpg",
-            "sources/imagen6.jpg"
+            "sources/efras1.png",
+            "sources/efras2.png",
+            "sources/efras2.png"
         ]
     };
 
