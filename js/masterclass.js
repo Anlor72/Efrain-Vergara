@@ -29,6 +29,6 @@ document.getElementById('formMasterclass').addEventListener('submit', function (
 
     // Redirigir si los datos son válidos
     if (nombreValido && emailValido) {
-        window.location.href = 'masterclassgratisvideos.html'; // Enlace a la siguiente página
+        window.location.href = 'https://www.efravergara.com/html/masterclassgratisvideos.html'; // Enlace a la siguiente página
     }
 });
