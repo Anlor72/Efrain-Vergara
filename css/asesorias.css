@@ -57,25 +57,43 @@ header {
 }
 
 .imagenes-slide img {
-    width: 100%;
-    max-width: 400px;
+    width: 100%; /* Toma todo el espacio disponible */
+    max-width: 400px; /* Limita el tamaño máximo para pantallas grandes */
+    height: auto; /* Mantiene la proporción de la imagen */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
 }
+
+/* Estilo para móviles */
+@media (max-width: 768px) {
+    .imagenes-slide img {
+        max-width: 100%; /* Usa el espacio completo de pantallas pequeñas */
+    }
+}
+
 
 .imagenes-slide button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #00c8ff;
+    background-color: rgba(0, 200, 255, 0.8); /* Fondo transparente con color */
     color: white;
     border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    border-radius: 50%; /* Forma circular */
+    width: 50px;
+    height: 50px;
     cursor: pointer;
-    font-size: 1.2em;
-    opacity: 0.8;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.imagenes-slide button:hover {
+    background-color: rgba(0, 123, 189, 0.9); /* Color más oscuro al pasar el cursor */
 }
 
 .imagenes-slide .prev {
@@ -85,6 +103,7 @@ header {
 .imagenes-slide .next {
     right: 10px;
 }
+
 
 /* Sección COMUNIDAD */
 .comunidad {
