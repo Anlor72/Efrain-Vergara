@@ -1,72 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coach Efra Vergara</title>
-    <link rel="stylesheet" href="https://www.efravergara.com/css/efra-vergara.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coach Efra Vergara</title>
+  <link rel="stylesheet" href="https://www.efravergara.com/css/efra-vergara.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <a href="https://www.efravergara.com/html/asesorias.html" style="text-decoration: none; color: white;">
-                🔥OFERTA DEL 30% EN MIS ASESORÍAS🔥
-            </a>
-        </div>
-    </header>
-    <section>
-        <img src="sources/436280755_1217669246307463_7681150903004424384_n.jpg" 
-            alt="Imagen de Coach Efra Vergara" 
-            style="width: 100%; max-width: 100px; height: auto; margin: 20px auto; display: block;">
-        <h1>La clave para tener una marca personal<br> y ganar 5 cifras al mes</h1>
-    </section>
-    <section>
-        <div class="vsl">
-            <video controls width="80%">
-                <source src="tu-video.mp4" type="video/mp4">
-                Tu navegador no soporta la reproducción de vídeo.
-            </video>
-        </div>
-        <div class="buttons">
-            <button class="button button-masterclass" onclick="window.location.href='https://www.efravergara.com/html/masterclass.html';">
-                MI MASTERCLASS GRATIS
-            </button>
-            <button class="button button-asesorias" onclick="window.location.href='https://www.efravergara.com/html/asesorias.html';">
-                MIS ASESORÍAS
-            </button>
-        </div>
-        <div class="social-icons">
-            <a href="https://www.youtube.com/@EfrainVergaracoach" target="_blank">
-                <img src="sources/youtube.png" alt="YouTube" style="width: 40px; height: 40px;">
-            </a>
-            <a href="https://www.tiktok.com/@efra_vergara5" target="_blank">
-                <img src="sources/tik-tok (1).png" alt="TikTok" style="width: 40px; height: 40px;">
-            </a>
-            <a href="https://www.instagram.com/efravergaracoach" target="_blank">
-                <img src="sources/instagram (1).png" alt="Instagram" style="width: 40px; height: 40px;">
-            </a>
-        </div>
-    </section>
-    <section class="quien-soy">
-        <div>
-            <h2>¿Quién soy?</h2>
-            <p>
-                Efraín Vergara Nemer, soy más conocido por mis reels motivacionales y desarrollo personal. 
-                Gané más de 100.000.000$ a mis 29 años haciendo bienes raíces. Hoy en día, me dedico a ser coach 
-                motivacional y hacer que mis alumnos facturen entre 5.000$ al mes con su marca personal, y los 
-                oriento en todas las áreas de su vida para que sean su mejor versión.
-            </p>
-        </div>
-        <img src="sources/Efrain Vergara.png" alt="Imagen de Efraín Vergara" style="width: 100%; max-width: 400px; height: auto; margin: 20px auto; display: block;">
-    </section>    
-    <footer>
-        <span>© 2025 Efrain Vergara</span>
-        <span>
-            <a href="#">Políticas de Privacidad</a> |
-            <a href="#">Aviso Legal</a> |
-            <a href="#">Política de Cookies</a> |
-            <a href="#">Condiciones de Servicio</a>
-        </span>
-    </footer>
+  <!-- Header Fijo con Gradient -->
+  <header>
+    <div class="header-content">
+      <a href="https://www.efravergara.com/html/asesorias.html">
+        🔥OFERTA DEL 30% EN MIS ASESORÍAS🔥
+      </a>
+    </div>
+  </header>
+
+  <!-- Sección Hero / Intro -->
+  <section class="hero">
+    <img class="hero-img" src="sources/436280755_1217669246307463_7681150903004424384_n.jpg" 
+         alt="Imagen de Coach Efra Vergara">
+    <h1>
+      La clave para tener una <span class="highlight">marca personal</span> 
+      <br> y ganar <span class="highlight">5 cifras al mes</span>
+    </h1>
+  </section>
+
+  <!-- Sección Video (usando Wistia) -->
+  <section class="video-section">
+    <div class="wistia-container">
+      <!-- Reemplaza "abc123" con tu ID real de Wistia -->
+      <iframe src="https://fast.wistia.net/embed/iframe/abc123" 
+              title="Video de Coach Efra Vergara" 
+              frameborder="0" 
+              allowfullscreen 
+              scrolling="no">
+      </iframe>
+    </div>
+    <div class="buttons">
+      <button class="button button-masterclass" onclick="window.location.href='https://www.efravergara.com/html/masterclass.html';">
+        MI MASTERCLASS GRATIS
+      </button>
+      <button class="button button-asesorias" onclick="window.location.href='https://www.efravergara.com/html/asesorias.html';">
+        MIS ASESORÍAS
+      </button>
+    </div>
+
+    <!-- Iconos Sociales con mayor espacio -->
+    <div class="social-icons">
+      <a href="https://www.youtube.com/@EfrainVergaracoach" target="_blank">
+        <img src="sources/youtube.png" alt="YouTube">
+      </a>
+      <a href="https://www.tiktok.com/@efra_vergara5" target="_blank">
+        <img src="sources/tik-tok (1).png" alt="TikTok">
+      </a>
+      <a href="https://www.instagram.com/efravergaracoach" target="_blank">
+        <img src="sources/instagram (1).png" alt="Instagram">
+      </a>
+    </div>
+  </section>
+
+  <!-- Sección "Quién Soy" -->
+  <section class="quien-soy">
+    <div class="quien-soy-text">
+      <h2>¿Quién soy?</h2>
+      <p>
+        Soy Efraín Vergara Nemer, reconocido por mis <span class="highlight">reels motivacionales</span> 
+        y desarrollo personal. Gané más de <span class="highlight">100.000.000$</span> a mis 29 años haciendo bienes raíces. 
+        Hoy, me dedico a ser coach motivacional para que mis alumnos facturen entre <span class="highlight">5.000$</span> al mes 
+        con su marca personal y se conviertan en su mejor versión.
+      </p>
+    </div>
+    <img class="quien-soy-img" src="sources/Efrain Vergara.png" alt="Imagen de Efraín Vergara">
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <span>© 2025 Efrain Vergara</span>
+    <span class="footer-links">
+      <a href="#">Políticas de Privacidad</a> |
+      <a href="#">Aviso Legal</a> |
+      <a href="#">Política de Cookies</a> |
+      <a href="#">Condiciones de Servicio</a>
+    </span>
+  </footer>
 </body>
 </html>
