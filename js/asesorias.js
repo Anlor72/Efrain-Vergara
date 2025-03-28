@@ -1,19 +1,17 @@
-// Función para cambiar a la imagen anterior en los sliders
 function slideAnterior(sliderId) {
     const slider = document.getElementById(sliderId);
     const currentSrc = slider.src;
 
-    // Reemplaza con tus rutas de imágenes para cada slider
     const images = {
         slider1: [
-            "sources/WhatsApp Image 2025-03-24 at 7.36.57 PM.jpeg",
-            "sources/WhatsApp Image 2025-03-24 at 7.36.58 PM.jpeg",
-            "sources/WhatsApp Image 2025-03-24 at 7.36.58 PM (1).jpeg"
+            "https://www.efravergara.com/sources/WhatsApp%20Image%202025-03-24%20at%207.36.57%20PM.jpeg",
+            "https://www.efravergara.com/sources/WhatsApp%20Image%202025-03-24%20at%207.36.58%20PM.jpeg",
+            "https://www.efravergara.com/sources/WhatsApp%20Image%202025-03-24%20at%207.36.58%20PM%20(1).jpeg"
         ],
         slider2: [
-            "sources/efras1.png",
-            "sources/efras2.png",
-            "sources/efras2.png"
+            "https://www.efravergara.com/sources/efras1.png",
+            "https://www.efravergara.com/sources/efras2.png",
+            "https://www.efravergara.com/sources/efras3.png"
         ]
     };
 
@@ -22,22 +20,20 @@ function slideAnterior(sliderId) {
     slider.src = images[sliderId][newIndex];
 }
 
-// Función para cambiar a la siguiente imagen en los sliders
 function slideSiguiente(sliderId) {
     const slider = document.getElementById(sliderId);
     const currentSrc = slider.src;
 
-    // Reemplaza con tus rutas de imágenes para cada slider
     const images = {
         slider1: [
-            "sources/WhatsApp Image 2025-03-24 at 7.36.57 PM.jpeg",
-            "sources/WhatsApp Image 2025-03-24 at 7.36.58 PM.jpeg",
-            "sources/WhatsApp Image 2025-03-24 at 7.36.58 PM (1).jpeg"
+            "https://www.efravergara.com/sources/WhatsApp%20Image%202025-03-24%20at%207.36.57%20PM.jpeg",
+            "https://www.efravergara.com/sources/WhatsApp%20Image%202025-03-24%20at%207.36.58%20PM.jpeg",
+            "https://www.efravergara.com/sources/WhatsApp%20Image%202025-03-24%20at%207.36.58%20PM%20(1).jpeg"
         ],
         slider2: [
-            "sources/efras1.png",
-            "sources/efras2.png",
-            "sources/efras2.png"
+            "https://www.efravergara.com/sources/efras1.png",
+            "https://www.efravergara.com/sources/efras2.png",
+            "https://www.efravergara.com/sources/efras3.png"
         ]
     };
 
