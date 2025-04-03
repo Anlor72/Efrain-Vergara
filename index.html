@@ -4,10 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coach Efra Vergara</title>
-  <head>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.efravergara.com/css/efra-vergara.css">
-  </head>  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.efravergara.com/css/efra-vergara.css">
+  
+  <!-- Scripts y estilos para Wistia -->
+  <script src="https://fast.wistia.com/player.js" async></script>
+  <script src="https://fast.wistia.com/embed/umj0m2omxx.js" async type="module"></script>
+  <style>
+    wistia-player[media-id='umj0m2omxx']:not(:defined) {
+      background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/umj0m2omxx/swatch');
+      display: block;
+      filter: blur(5px);
+      padding-top: 56.25%; /* Proporción 16:9 */
+    }
+  </style>
+</head>  
 <body>
   <!-- Header Fijo con Gradient -->
   <header>
@@ -22,21 +33,16 @@
   <section class="hero">
     <img class="hero-img" src="sources/436280755_1217669246307463_7681150903004424384_n.jpg" 
          alt="Imagen de Coach Efra Vergara">
-         <h1>
-          Te enseñaré mi modelo de negocio para que <span class="highlight">factures</span> 
-          <br><span class="highlight">5 cifras al mes</span>
-        </h1>
+    <h1>
+      Te enseñaré mi modelo de negocio para que <span class="highlight">factures</span> 
+      <br><span class="highlight">5 cifras al mes</span>
+    </h1>
   </section>
 
+  <!-- Sección Video (con Wistia) -->
   <section class="video-section">
-    <div class="wistia-container">
-      <iframe src="https://anlordr76.wistia.com/medias/umj0m2omxx" 
-              title="Video de Coach Efra Vergara" 
-              frameborder="0" 
-              allowfullscreen 
-              scrolling="no">
-      </iframe>
-    </div>
+    <h2>Video de Coach Efra Vergara</h2>
+    <wistia-player media-id="umj0m2omxx" aspect="1.7777777777777777"></wistia-player>
     <div class="buttons">
       <button class="button button-masterclass" onclick="window.location.href='https://www.efravergara.com/html/masterclass.html';">
         MI MASTERCLASS GRATIS
